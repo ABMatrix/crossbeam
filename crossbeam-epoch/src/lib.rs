@@ -47,7 +47,7 @@
 //!
 //! For majority of use cases, just use the default garbage collector by invoking [`pin`]. If you
 //! want to create your own garbage collector, use the [`Collector`] API.
-
+#![feature(const_fn_trait_bound)]
 #![doc(test(
     no_crate_inject,
     attr(
